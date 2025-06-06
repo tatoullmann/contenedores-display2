@@ -1,0 +1,22 @@
+.body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0
+}
+.container {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        height: 250px;
+        background-color: rgb(78, 165, 100);
+        align-items:center ; 
+
+}
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 500px;
+    gap: 15px;
+}
+

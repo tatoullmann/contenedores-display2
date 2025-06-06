@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexblox</title>
+    <style>
+        .container {
+            display: flex;
+            /* se aplica la propiedad display al contenedor para que sea flex, es decir, que los elementos se alinean en una sola fila*/
+            flex-direction: row; /*--cambia la direccion entre row/fila y colum/columna*/
+            justify-content: center;
+            /*es la forma que se distribuye los items a lo largo del eje pricipal. valores: 
+            center
+            flex end
+            flex start
+            space.beetween / space- around*/
+            height: 250px;
+            background-color: blueviolet;
+            align-items:center ; /*controla la alineacion de los items en el eje secundario*/
+            gap: 10px; /*define el espacio entre los items flex dentro del contenedor*/
+            order: 1;
+        }
+
+        .item {
+    background-color: rgb(235, 134, 4);
+    width: 150px;
+    border: 2px solid blue;
+    padding: 5px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- flexbox e sun modelo de diseño de css-->
+    <div class="container">
+        <div class="item">hamburguesa </div>
+        <div class="item">coca</div>
+        <div class="item">papas</div>
+    </div>
+</body>
+
+</html>
