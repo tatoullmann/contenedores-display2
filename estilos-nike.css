@@ -1,0 +1,114 @@
+.sup{
+background-color: rgb(255, 255, 255);
+justify-content: space-between;
+display: flex;
+}
+
+.der{
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: right;
+gap: 10px;
+}
+
+.izq{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    width: calc(33.333% - 20px);
+}
+.img{
+   border: 5px; 
+}
+
+.nuevo{
+    color: red;
+    justify-content: left;
+    text-align: start;
+}
+
+.nombre{
+    text-align: start;
+    font-weight: 900;
+    font-size: 1.4em;
+    
+}
+
+.info{
+    text-align: start;
+    font-family: "Manrope", sans-serif;
+}
+
+.precio{
+    text-align: start;
+    font-weight: 900;
+    font-size: 1.4em;
+
+}
+
+.containerbelow{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #87975a;
+    
+}
+
+
+
+.fila1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.fila2{
+
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   border-top: #000 solid 1px;
+   font-size: 1.3em;
+  justify-content: space-between;
+}
+ .img{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+ }
+
+.redes{
+    display: flex;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+.box2{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
